@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora IA</title>
+  <link rel="stylesheet" type="text/css" href="stlyes.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Calculadora IA</h1>
+    <p>Esta calculadora te permite realizar operaciones aritméticas con n operandos y operadores</p>
+
+    <form id="calcForm">
+      <label for="operacion">Escribe tu operación <span style="color:red">*</span></label>
+      <textarea id="operacion" name="operacion" placeholder="Ejemplo: (4+2)*3" required></textarea>
+      <button id="submitBtn" type="submit">Calcular</button>
+    </form>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
